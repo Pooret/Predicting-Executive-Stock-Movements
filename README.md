@@ -1,8 +1,7 @@
 # Predicting-Executive-Stock-Movements
 
-Problem Statement: Can we predict daily stock changes from twitter sentiment?
 
-Background:
+## Background:
 The accessibility and ubiquity of social media has created a new problem for investors, in which influential individuals can cause dramatic changes in the market. For example, on January 28th, shares for the CD Projekt developers of Cyberpunk 2077 surged over 12% after Elon Musk tweeted that he liked the game the night before. In another example, Tesla shares fell over 10% when Musk tweeted that the company’s valuation was too high. The rapid market changes from these tweets has caused investors to be fixated on monitoring social media for similar occurrences. 
 
 Andy Swan writes in Forbes that there are 4 types of tweets to look for that influence stocks.
@@ -14,5 +13,10 @@ Influencer tweets an opinion about a particular brand or product
 
 Given these four tweet types, we can assess twitter feeds based off of stock, company, and product mentions. 
 
-Proposal:
-To assess which twitter feeds are most influential, Twitter feeds will be tokenized using Python’s nltk’s TweetTokenizer to perform named entity recognition analysis. Sentiment analysis will then be done on tweets that contain mentions of stocks in the S&P 500. Stock changes will be assessed a day after the tweets, and a regression analysis will be done on the stocks changes based on the tweet sentiment. 
+## Business Proposal
+The accessibility and ubiquity of social media has created a new problem for investors, in which influential individuals can cause dramatic changes in the market. On the other hand, it creates a potentially new and much faster means of assessing stock movements. For example, on January 28th, shares for the CD Projekt developers of Cyberpunk 2077 surged over 12% after Elon Musk tweeted that he liked the game the night before.
+
+The Scenario:
+It is hypothesized that an executive's tweets will impact their company's stock prices. Assuming this to be true, an investor could analyze the executive's posts to make a prediction as to whether the stock will rise, drop, or remain the same as indicated by a percent change threshold. To simplify this problem and open it up for future implementation strategies, we will examine if twitter data can predict whether or not the stock price changes.
+
+An investor wants to know as early as possible if company's stock is going to change by a specified amount before the next opening or closing price. As the periods of time between opening and closing stock prices are relatively short, getting a sense of stock movement using only the twitter data would be a huge benefit. If stocks are predicted to change beyond a certain threshold (e.g. +/− 2%), an investor can look at the trend of the stock and make a decision as to purchase shares of the stock or to sell existing share.
