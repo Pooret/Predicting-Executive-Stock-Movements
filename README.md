@@ -3,7 +3,9 @@
 
 ## Background:
 The accessibility and ubiquity of social media has created a new problem for investors, in which influential individuals can cause dramatic changes in the market. For example, on January 28th, shares for the CD Projekt developers of Cyberpunk 2077 surged over 12% after Elon Musk tweeted that he liked the game the night before. In another example, Tesla shares fell over 10% when Musk tweeted that the company’s valuation was too high. The rapid market changes from these tweets has caused investors to be fixated on monitoring social media for similar occurrences. 
-
+<figure>
+<img src = "https://github.com/Pooret/Predicting-Executive-Stock-Movements/blob/main/figures/report/Fig1.png">
+</figure>
 Andy Swan writes in Forbes that there are 4 types of tweets to look for that influence stocks.
 
 Influential people or groups tweets about a company’s stock
