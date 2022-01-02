@@ -27,7 +27,7 @@ An investor wants to know as early as possible if company's stock is going to ch
 ## To Do
 *My project is never fully completed, and as I learn more I will apply what I've learned to the original problem set. I am always open to suggested edits as well, so if there are any I will include them here.*  
 
-1. NMF component factorization to create topics that can be used to filter raw twitter data.
+1. [NMF component factorization to create topics that can be used to filter raw twitter data.](https://campus.datacamp.com/courses/unsupervised-learning-in-python/discovering-interpretable-features?ex=6)
 2. Look for any autocorrelations and partial autocorrelations for stock price detrending, for features over time
 3. Predict up vs down (sorry this was my first project and didn't know a lot, I am correcting this first)
 4. Get more twitter data if possible (Twint is a no go still)
