@@ -24,7 +24,7 @@ It is hypothesized that an executive's tweets will impact their company's stock 
 An investor wants to know as early as possible if company's stock is going to change by a specified amount before the next opening or closing price. As the periods of time between opening and closing stock prices are relatively short, getting a sense of stock movement using only the twitter data would be a huge benefit. If stocks are predicted to change beyond a certain threshold (e.g. +/− 2%), an investor can look at the trend of the stock and make a decision as to purchase shares of the stock or to sell existing share.
 
 
-## To Do##
+## To Do
 *My project is never fully completed, and as I learn more I will apply what I've learned to the original problem set. I am always open to suggested edits as well, so if there are any I will include them here.*  
 
 1. NMF component factorization to create topics that can be used to filter raw twitter data.
