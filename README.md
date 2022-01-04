@@ -34,3 +34,4 @@ An investor wants to know as early as possible if company's stock is going to ch
 5. vord2vec
 6. BERT 
 
+I am currently cleaning up/refining the datawrangling, preprocessing steps in a forked notebook. My first goal ultimate goal is to develop an NLP pipeline whereby the wrangled data are cleaned/preprocessed and the fit to a model. This will be implemented with Class NLP_Pipe (working on OOP programing).
