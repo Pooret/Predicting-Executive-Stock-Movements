@@ -35,3 +35,6 @@ An investor wants to know as early as possible if company's stock is going to ch
 6. BERT 
 
 I am currently cleaning up/refining the datawrangling, preprocessing steps in a preprocessing notebook. My first goal ultimate goal is to develop an NLP pipeline whereby the wrangled data are cleaned/preprocessed and the fit to a model. This will be implemented with Class NLP_Pipe (working on OOP programing).
+
+Ideas to try:
+Probably better to group tweets as lists of raw tweets, then can perform better selection, determine which tweet was most impactful, this is definitely a better sounding approach, so I will do this after I finish my pipeline (do pipeline train-fit-evaluation before moving on: need ot have a complete project to compare performance against other strategies). 
