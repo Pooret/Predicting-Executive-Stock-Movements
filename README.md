@@ -22,19 +22,3 @@ The Scenario:
 It is hypothesized that an executive's tweets will impact their company's stock prices. Assuming this to be true, an investor could analyze the executive's posts to make a prediction as to whether the stock will rise, drop, or remain the same as indicated by a percent change threshold. To simplify this problem and open it up for future implementation strategies, we will examine if twitter data can predict whether or not the stock price changes.
 
 An investor wants to know as early as possible if company's stock is going to change by a specified amount before the next opening or closing price. As the periods of time between opening and closing stock prices are relatively short, getting a sense of stock movement using only the twitter data would be a huge benefit. If stocks are predicted to change beyond a certain threshold (e.g. +/− 2%), an investor can look at the trend of the stock and make a decision as to purchase shares of the stock or to sell existing share.
-
-
-## To Do
-*My project is never fully completed, and as I learn more I will apply what I've learned to the original problem set. I am always open to suggested edits as well, so if there are any I will include them here.*  
-
-1. [NMF component factorization to create topics that can be used to filter raw twitter data.](https://campus.datacamp.com/courses/unsupervised-learning-in-python/discovering-interpretable-features?ex=6)
-2. Look for any autocorrelations and partial autocorrelations for stock price detrending, for features over time
-3. Predict up vs down (sorry this was my first project and didn't know a lot, I am correcting this first)
-4. Get more twitter data if possible (Twint is a no go still)
-5. vord2vec
-6. BERT 
-
-I am currently cleaning up/refining the datawrangling, preprocessing steps in a preprocessing notebook. My first goal ultimate goal is to develop an NLP pipeline whereby the wrangled data are cleaned/preprocessed and the fit to a model. This will be implemented with Class NLP_Pipe (working on OOP programing).
-
-Ideas to try:
-Probably better to group tweets as lists of raw tweets, then can perform better selection, determine which tweet was most impactful, this is definitely a better sounding approach, so I will do this after I finish my pipeline (do pipeline train-fit-evaluation before moving on: need ot have a complete project to compare performance against other strategies). 
